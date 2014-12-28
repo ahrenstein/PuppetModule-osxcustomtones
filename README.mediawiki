@@ -1,0 +1,15 @@
+=== Puppet Module - OS X Custom Ringtones ===
+This puppet module will add custom ringtones to OS X for uses with the Messages app or any other app that draws ringtones from the directory /System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/Resources/Ringtones
+=== Requirements ===
+*1) Puppet version 3.4 or later (Test on 3.7.3 only)
+*2) OS X 10.10.0 or later (Tested on 10.10.1 only)
+*3) Puppet Module: glarizza-property_list_key 0.2.1 or later
+=== Installation Instructions ===
+*1) Check the git repo out to a module directory named "osxcustomtones"
+*2) Add the module to your Hiera data
+*3) Add your own tones if you wish.
+=== Limitations ===
+*1) This module requires m4r files to be deployed, and currently pulls them from ${MODDIR}/files so many tones may slow things down due to network traffic
+*2) The plist editing resource type does not edit plists, but replaces them so you must include all of the Apple default tones from whatever OS X version you are on. (This will probably only change with OS X releases (ie: 10.10/10.11/etc...) so that shouldn't be a big deal
+=== A Note On The Included Tones ===
+The tones included with this module in the Github repo are for use as example data. Any and all copyrights belong to their respective owners.

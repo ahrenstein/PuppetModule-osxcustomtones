@@ -1,0 +1,28 @@
+{
+  "author": "Matthew Ahrenstein",
+  "dependencies": [
+        {
+                "version_requirement":">=0.2.1",
+                "name":"glarizza-property_list_key"
+        }
+  ],
+  "license": "See LICENSE.txt",
+  "name": "ahrenstein-osxcustomtones",
+  "operatingsystem_support": [
+  	{
+  		"operatingsystem":"darwin",
+  		"operatingsystemrelease":[">=14.0.0"]
+  	}
+  ],
+  "project_page": "https://github.com/ahrenstein/PuppetModule-osxcustomtones",
+  "requirements": [
+  	{
+      "name": "puppet",
+      "version_requirement": ">=3.7.0 <4.0.0"
+    }
+  ],
+  "source": "https://github.com/ahrenstein/PuppetModule-osxcustomtones",
+  "summary": "This module automatically configures the right files and plists so Yosemite's Messages.app can use my favorite Text Tones",
+  "tags": [],
+  "version": "0.1.0"
+}
