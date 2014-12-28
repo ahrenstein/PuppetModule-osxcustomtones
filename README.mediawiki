@@ -12,4 +12,4 @@ This puppet module will add custom ringtones to OS X for uses with the Messages 
 *1) This module requires m4r files to be deployed, and currently pulls them from ${MODDIR}/files so many tones may slow things down due to network traffic
 *2) The plist editing resource type does not edit plists, but replaces them so you must include all of the Apple default tones from whatever OS X version you are on. (This will probably only change with OS X releases (ie: 10.10/10.11/etc...) so that shouldn't be a big deal
 === A Note On The Included Tones ===
-The tones included with this module in the Github repo are for use as example data. Any and all copyrights belong to their respective owners.
+The tones included with this module in the Github repo are for use as example data. Any additional tones I will be using are not going to be committed. Also these tones are covered under fair use since this module is meant for learning purposes. If you wish to make a claim otherwise, contact me directly. I will be more than happy to respond positively to your request.
