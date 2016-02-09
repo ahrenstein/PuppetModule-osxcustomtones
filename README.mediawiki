@@ -1,5 +1,5 @@
 === DEPRECATION WARNING ===
-I am no longer maintaining this puppet module as I have started working with Chef instead. I don't have a Chef version of this module at this time though, and I may never make one since this is really not something useful to anyone else.
+I am no longer maintaining this puppet module as I have started working with <strike>Chef</strike> Ansible instead. I don't have an <strike>Chef</strike> Ansible version of this module at this time though, and I may never make one since this is really not something useful to anyone else.
 <br />I will still accept pull requests against this module if improvements are made to it though.
 === Puppet Module - OS X Custom Ringtones ===
 This puppet module will add custom ringtones to OS X for uses with the Messages app or any other app that draws ringtones from the directory /System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/Resources/Ringtones
